@@ -26,8 +26,8 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ### Links
 
-- Solution URL: [Github]([https://your-solution-url.com](https://github.com/Saguneo/QR-Code-Component))
-- Live Site URL: [Vergel]([https://your-live-site-url.com](https://qr-code-component-gules-eight.vercel.app/))
+- Solution URL: [Github](https://github.com/Saguneo/QR-Code-Component)
+- Live Site URL: [Vergel](https://qr-code-component-gules-eight.vercel.app/)
 
 ## My process
 
