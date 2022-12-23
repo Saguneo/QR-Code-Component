@@ -4,30 +4,30 @@
 }
 
 body {
+    
     box-sizing: border-box;
     background-color: hsl(212, 45%, 89%);
 }
 
-.container {
+main {
 
-
-    border-radius: 10px;
+    height: 100vh;
     display: flex;
+    flex-direction: column;
     justify-content: center;
-    padding-top: 50px;
-    padding-bottom: 10px;
+    align-items: center;
+    gap: .6rem;
 
-    
 }
 
 .content {
-
+    
     background-color: white;
     text-align: center;
     padding: 1rem;
     padding-bottom: 1.5rem;
     border-radius: 1rem;
-    width: 250px;
+    max-width: 15rem;
     box-shadow: 0 1px 8px 0 rgba(0, 0, 0, 0.2), 0 1px 0.1px 0 rgba(0, 0, 0, 0.19);
     font-family: 'Outfit', sans-serif;
     
@@ -42,8 +42,8 @@ body {
 
 .title {
     
-    font-size: 20px;
-    padding-top: 1rem;
+    font-size: 1.3rem;
+    margin-top: 1rem;
 
 }
 
@@ -51,12 +51,19 @@ body {
 
     
     color: hsl(220, 15%, 55%);
-    padding-top: 1rem;
-    font-size: 15px;
-
+    margin-top: 1rem;
+    font-size: .95rem;
 
 }
 
+footer { 
+    
+    text-align: center;
+    font-size: .8rem; 
+}
 
-.attribution { font-size: 11px; text-align: center; }
-.attribution a { color: hsl(228, 45%, 44%); }
+footer a {
+
+     color: hsl(228, 45%, 44%); 
+
+}
